@@ -1,3 +1,5 @@
+# A sameple template for a Docker yaml File. 
+
 name: CI
 
 # to add comments use #
