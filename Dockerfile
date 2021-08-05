@@ -1,7 +1,7 @@
 # SECTION 1 - Normal Image
 #FROM node:10-alpine
 
-#WORKDIR /app
+#3WORKDIR /app
 
 #COPY . .
 
@@ -36,24 +36,7 @@ CMD node /app/web/server.js & node /app/api/server.js
 
 
 
-#version: "2"
-#services:
-#app:
-#container_name: app
-#restart: always
-#build: .
-#ports: 
-#- "9030:9030"
-#- "9090:9090"
-#links: 
-#- mongo
-#mongo:
-#container_name: mongo
-#image: mongo
-#volumes: 
-#- ./data:/data/db
-#ports: 
-#- "27017:27017"
+
 
 
 
